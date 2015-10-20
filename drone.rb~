@@ -3,7 +3,7 @@ class Drone
 	def initialize(x,y,pos, lim_x, lim_y)
 		@x = x
 		@y = y
-		@pos = pos.upcase
+		@pos = pos
 		@lim_x = lim_x
 		@lim_y = lim_y
 	end
@@ -22,7 +22,7 @@ class Drone
 		else
 			puts 'movimento invalido'
 		end
-		#puts status
+		puts status
 	end
 
 
